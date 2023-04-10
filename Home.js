@@ -4,7 +4,7 @@ import image from './Images/Background.jpg'
 // import { Feather } from 'react-native-feather'
 import capsuleImage from './Images/CapsuleImage.jpg'
 import tabImage from './Images/raw.png'
-import Icon from 'react-native-vector-icons/MaterialIcons'
+
 
 const Home = (props) => {
   let { user } = props.route.params
@@ -15,7 +15,7 @@ const Home = (props) => {
 
       <View style={style.searchStyle}>
         
-        <Text style={{marginLeft:5,marginTop:5}}> <Icon name="search" size={25}/>  </Text> 
+
         <TextInput
           style={{ fontSize: 18 }}
           placeholder='Search for medicine'
