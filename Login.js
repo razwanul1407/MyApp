@@ -8,7 +8,7 @@ const Login = (props) => {
 
     const [userError, setUserError] = useState(false);
     const [passwordError, setPasswordError] = useState(false);
-    const [agree, setagree] = useState(false);
+    const [agree, setagree] = useState(false); 
 
     return (
 
