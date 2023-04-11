@@ -5,7 +5,7 @@ import image from './Images/IbuprofenBImage.jpg'
 import Back from 'react-native-vector-icons/Ionicons'
 import Heart from 'react-native-vector-icons/AntDesign'
 
-const Ibuprofen = (props) => {
+const Biotin = (props) => {
 
     const [agree, setAgree] = useState(false);
 
@@ -27,9 +27,9 @@ const Ibuprofen = (props) => {
                 <View style={style.container2}>
 
                     <View style={style.mediBox} >
-                        <Text style={style.boxtext1}>Ibuprofen</Text>
-                        <Text style={style.boxtext3}>Tablets - 50 pices</Text>
-                        <Text style={style.boxtext2}>$4.62</Text>
+                        <Text style={style.boxtext1}>Biotin</Text>
+                        <Text style={style.boxtext3}>Tablets - 60 pices</Text>
+                        <Text style={style.boxtext2}>$10.02</Text>
 
                         <Text style={style.boxtext4}>Dosege from</Text>
                         <Text style={style.boxtext5}>Pills</Text>
@@ -46,9 +46,9 @@ const Ibuprofen = (props) => {
                         </TouchableOpacity>
 
                         <Text style={style.boxtext8}>Active Substanc</Text>
-                        <Text style={style.boxtext9}>Ibuprofen</Text>
+                        <Text style={style.boxtext9}>Biotin</Text>
                         <Text style={style.boxtext10}>Manufacture</Text>
-                        <Text style={style.boxtext11}>Duisyn, Russia</Text>
+                        <Text style={style.boxtext11}>Russia</Text>
                     </View>
 
                     <View style={style.mediBox3} >
@@ -230,4 +230,4 @@ const style = StyleSheet.create({
         marginBottom: 60
     },
 })
-export default Ibuprofen;
+export default Biotin;

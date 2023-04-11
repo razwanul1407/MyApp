@@ -8,13 +8,10 @@ const Login = (props) => {
 
     const [userError, setUserError] = useState(false);
     const [passwordError, setPasswordError] = useState(false);
-    const [agree, setagree] = useState(false); 
+    const [agree, setagree] = useState(false);
 
     return (
-
-
         <ImageBackground source={image} style={style.imagestyle} >
-
 
             <Text
                 style={{
@@ -40,16 +37,13 @@ const Login = (props) => {
                 secureTextEntry={true}
             />
                 
-            
             <TouchableOpacity style={style.button} onPress={() => props.navigation.navigate("Home", { user })}>
                 <Text style={{ fontSize: 20 }}>Login </Text>
             </TouchableOpacity>
 
-
             <TouchableOpacity style={style.forgetbutton}>
                 <Text style={{ fontSize: 15 }}>Forget Password ?</Text>
             </TouchableOpacity>
-
 
         </ImageBackground>
 
